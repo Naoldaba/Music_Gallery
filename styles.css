@@ -1,0 +1,116 @@
+body{
+    margin: 0
+}
+
+.div-body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.main{
+    text-align: center;
+}
+
+.create_music{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+}
+
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 30px;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.album-title{
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.music-Info {
+    padding: 15px;
+}
+
+.music-Info h2 {
+    margin-top: 0;
+}
+
+.music-Info p {
+    margin-bottom: 5px;
+}
+.last-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.btn-delete{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-edit{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.error{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
